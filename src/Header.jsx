@@ -7,7 +7,7 @@ function Header() {
         <>
             <div className='header'>
                 <img src={logo} className='logo-style' alt="My Notes Logo" />
-                <UserGreet isLoggedIn={false} username="Guest" />
+                <UserGreet isLoggedIn={true} username="Guest" />
             </div>
         </>
     )
