@@ -217,10 +217,10 @@ function NotesContainer() {
 
             </div>
             {/* debug purposes */}
-            {/*<h3>Notes Object Array</h3>
+            {/* <h3>Notes Object Array</h3>
             <p>
                 {JSON.stringify(noteList, null, 2)}
-            </p>*/}
+            </p> */}
             <FileUpload import={readEncryptedFile} />
 
         </div>

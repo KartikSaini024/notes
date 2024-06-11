@@ -783,10 +783,24 @@ iframe {
   flex-direction: column;
 }
 
-.file-button {
-  width: 180px;
+.fileUpload button {
+  position: relative;
 }
 
+.file-button {
+  /* width: 180px; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+
+#import-button {
+  border: 2px solid transparent;
+}
+.border-anim{
+  animation: button-border 600ms ease infinite;
+}
 
 
 
@@ -873,7 +887,8 @@ iframe {
   }
 
   /* popup windows */
-  .add-note, .popup-window {
+  .add-note,
+  .popup-window {
     width: 85%;
     max-height: 83vh;
     overflow-y: scroll;
@@ -903,4 +918,33 @@ iframe {
     opacity: 1;
     backdrop-filter: blur(5px);
   }
+}
+
+@keyframes button-border {
+  0% {
+    box-shadow: -1px 0px 3px #4c55ff;
+  }
+  14.2% {
+    box-shadow: -1px -1px 3px #4c55ff;
+  }
+  28.4% {
+    box-shadow: 0px -1px 3px #4c55ff;
+  }
+  42.6% {
+    box-shadow: 2px -1px 3px #4c55ff;
+  }
+  56.8% {
+    box-shadow: 2px 0px 3px #4c55ff;
+  }
+  71% {
+    box-shadow: 2px 2px 3px #4c55ff;
+  }
+  85.2% {
+    box-shadow: -1px 2px 3px #4c55ff;
+  }
+  100% {
+    box-shadow: -1px 0px 3px #4c55ff;
+  }
+
+  
 }
