@@ -5,7 +5,7 @@ https://kartiksaini024.github.io/notes/
 This is a note making web app made with React + Vite
 
 # YouTube Timestamps
-Allows to save notes on different timestamps of a YouTube video.
+Allows to save notes for different timestamps of a YouTube video.
 
 # Client-side
 Client-side application, easy to use and navigate
