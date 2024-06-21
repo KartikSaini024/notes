@@ -1,5 +1,5 @@
 # Click Below to go to the website
-https://kartiksaini024.github.io/note-maker/
+https://kartiksaini024.github.io/notes/
 
 # Take a Note
 This is a note making web app made with React + Vite
