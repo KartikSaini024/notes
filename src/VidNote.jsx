@@ -90,7 +90,7 @@ function VidNote(props) {
                     <h2 className='note-title'>{noteTitle}</h2>
 
                     <span className='note-p-div toggle-preview'>
-                        <p>Note ID:{Note.id}</p>
+{/*                         <p>Note ID:{Note.id}</p> */}
                         <p>{noteText}</p>
 
                         {/* if timestamps are available,print */}
