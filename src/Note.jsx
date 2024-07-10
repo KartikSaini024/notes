@@ -71,7 +71,7 @@ function Note(props) {
                     <img className='avatar' src={icon} alt="" />
                     <h2 className='note-title'>{noteTitle}</h2>
                     <span className='note-p-div toggle-preview'>
-                        {*<p>Note ID: {props.id}</p>*}
+{/*                         <p>Note ID: {props.id}</p> */}
                         <p id='note-content'>{noteText}</p>
                     </span>
                 </div>
